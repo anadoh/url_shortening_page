@@ -12,10 +12,13 @@
 
 
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="nav">
+
+
+  <div class="nav content-width">
     <div class="nav__left-side">
       <img class="nav__logo" src="./images/logo.svg" alt="logo">
       <a>Features</a>
@@ -29,28 +32,37 @@
   </div>
 
 
-  <div class="driver">
-    
-    <div class="driver__column">
-      <p class="driver__title">More than just shorter links</p>
-      <p class="driver__content">Build your brand’s recognition and get detailed insights
-        on how your links are performing.</p>
-      <a class="driver__button">Get Started</a>
+  <div class="full-width">
+    <div class="driver content-width">
+      <div class="driver__column">
+        <p class="driver__title">More than just shorter links</p>
+        <p class="driver__content">Build your brand’s recognition and get detailed insights
+          on how your links are performing.</p>
+        <a class="driver__button">Get Started</a>
+      </div>
     </div>
-
-    <img class="driver__img" src="./images/illustration-working.svg">
   </div>
 
-  <div class="search">
+
+  <div class="search content-width">
+    
+    <form>
+      <input  class="form_container" type="text" placeholder="Shorten a link here..." id="fshort" name="fshort" required>
+    </form>
+
     <a class="search__button">Shorten It!</a>
   </div>
-  <div class="statistics">
+  <div class="statistics content-width">
     <p class="statistics__title">Advanced Statistics</p>
     <p class="statistics__content">Track how your links are performing across the web with our
       advanced statistics dashboard.</p>
   </div>
 
-  <div class="features">
+
+
+
+
+  <div class="features content-width">
     <div class="feature__item">
       <img class="feature__img" src="./images/icon-brand-recognition.svg" alt="icon-brand-recognition">
       <p class="feature__title">Brand Recognition</p>
@@ -70,6 +82,8 @@
         links, supercharging audience engagement.</p>
     </div>
   </div>
+
+
 
   <div class="boost">
     <p>Boost your links today</p>
