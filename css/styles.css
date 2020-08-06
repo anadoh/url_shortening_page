@@ -182,8 +182,7 @@ body {
 .features{
     display: flex;
     justify-content: space-between;
-    height: 400px;
-    
+    height: 475px;
     
 }
 
@@ -237,5 +236,75 @@ body {
     width: 30px;
     height: 10px; 
     margin: 150px auto
+}
+
+
+/* part V */
+
+.boost {
+    background-image: url("./images/bg-boost-desktop.svg");
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(260, 30%, 27%);
+    padding-top:70px;
     
+   
+}
+
+.boost__title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center; */
+}
+.boost__button {
+    font-size: 1.15rem;
+    font-weight:700;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    width: 195px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* part VI */
+.footer {
+    background-color:hsl(260, 8%, 14%);
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    height: 300px;
+    padding-top:75px;
+}
+
+.footer__logo {
+    width: 345px;
+    text-align: center;
+    filter: invert(1);
+}
+
+.footer__column {
+  text-align: left;
+  margin-left: 50px;
+  
+}
+.footer__title{
+    font-weight: 700;
+    margin:10px;
+    color:white;
+}
+
+.footer__icons {
+    width: 335px;
+}
+
+.footer__space {
+    margin: 10px;
+}
+
+.footer__link {
+    margin:10px;
 }
