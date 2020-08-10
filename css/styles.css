@@ -43,7 +43,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: 775px bottom;
     padding-top:160px;
-   
+
 }
 
 /* I part */
@@ -307,4 +307,96 @@ body {
 
 .footer__link {
     margin:10px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width:1109px){
+    /* html {
+        font-size: 11px;
+    } */
+
+    .nav__left-side a {
+        display: none;
+    }
+     
+    }
+    .nav__right-side {
+        display: none;
+    }
+
+    .mobile {
+        margin-left: 1rem;
+        height: 340px;
+        background-size: auto 340px;
+        background-repeat: no-repeat;
+        background-image: url("./images/illustration-working.svg");
+        
+    }
+
+    .full-width{
+        height: 415px;
+        padding-top: 45px;
+        padding-bottom: 85px;
+       
+    }
+
+    .driver__column {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 330px;
+        text-align: center;
+        
+    }
+
+    .content-width {
+        width: 330px;
+    }
+    .driver__title {
+        font-size: 2.75rem;
+        line-height: 2.85rem;
+    }
+    .driver__content {
+        padding-top: 1.2rem;
+        font-size: 1.1rem;
+    }
+    .driver__button {
+        display: flex;
+        justify-content: center
+    } 
+
+    
+    .search {
+        margin-top: 84px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+      
+        
+    }
+    
+    .form_container {
+        background-color: aliceblue;
+        border-radius: 10px;
+        height: 50px;
+        width: 280px;
+        margin-bottom: 10px;
+       
+    }
+    
+    
+    .search__button {
+        
+        background-color: hsl(180, 66%, 49%);
+        border-radius: 10px;
+        height: 50px;
+        width: 280px;
+        
+    } 
+
+
 }
