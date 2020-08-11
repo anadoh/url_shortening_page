@@ -210,7 +210,6 @@ body {
 
 .feature__content {
     width: 310px;
-    font-size: 0.75rem;
     font-size: 1rem;
     margin: 20px 20px;
     
@@ -312,10 +311,7 @@ body {
 
 /* Media Queries */
 @media only screen and (max-width:1109px){
-    /* html {
-        font-size: 11px;
-    } */
-
+    
     .nav__left-side a {
         display: none;
     }
@@ -385,18 +381,141 @@ body {
         height: 50px;
         width: 280px;
         margin-bottom: 10px;
-       
+        justify-content: left;
+        font-size: 1rem;
     }
     
-    
-    .search__button {
-        
+    .search__button { 
         background-color: hsl(180, 66%, 49%);
         border-radius: 10px;
         height: 50px;
         width: 280px;
         
     } 
+
+/* statistics */
+   
+
+    .statistics__title {
+        font-size: 1.75rem;
+        margin-top: 0;
+    }
+
+    .statistics__content {
+        width: 340px;
+        font-size: 1.1em;
+        margin-bottom: 105px
+    }
+        
+
+/* features */
+
+.features{
+    
+    flex-direction: column;
+    align-content: center;
+    height: 1005px;
+    
+}
+
+.feature_circle {
+
+     margin: auto auto; 
+}
+
+.feature__title {
+    display: flex;
+    justify-content: center
+    
+}
+
+.feature__content {
+    width: 260px;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.feature__item  {
+    background-color: white;
+    width: 330px;
+    height: 270px;       
+}
+
+.second {
+    margin-top: 40px;
+}
+
+.square {
+    background-color:  hsl(180, 66%, 49%);
+    width: 10px;
+    height: 65px; 
+    margin: auto auto; 
+}
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+
+/* boost */
+
+.boost {
+    height: 300px;
+    background-size: cover;
+}
+
+.boost__title {
+    font-size: 1.75rem;
+}
+.boost__button {
+    margin: 30px auto;
+}
+/* footer */
+.footer {
+    flex-direction: column;
+    height: 775px;
+    padding-top:50px;
+}
+
+.footer__logo {
+    width: 100%;
+}
+
+.footer__column {
+  text-align: center;
+  margin-left: 0;
+  
+}
+.footer__title{
+    font-weight: 700;
+    margin:10px;
+    color:white;
+}
+
+.footer__icons {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer__space {
+    margin: 10px;
+}
+
+.footer__link {
+    margin:10px;
+}
+
+.footer__link{
+    font-size: 0.9rem;
+}
+.menu-trigger {
+    color:#000;background:#FFC000;font-weight:700;text-transform:uppercase;padding:15px;margin:0 0 5px;cursor:pointer;
+    
+}
 
 
 }
