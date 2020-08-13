@@ -110,6 +110,7 @@ body {
 
 .statistic__background {
     background-color: hsl(0, 0%, 90%);
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -297,15 +298,19 @@ body {
     .nav {
         display: none;
     }
+    .full-width {
+        background-image: none;
+    }
     
     .mobile {
         margin-left: 1rem;
         height: 364px;
         margin-top: 40px;
-        background-size: auto 340px;
+        background-size: auto 16rem;
         background-repeat: no-repeat;
         background-image: url("./images/illustration-working.svg");
         background-position: 0 4rem;
+        background-position-x: left;
     }
     .mobile__logo {
         height: fit-content;
@@ -491,6 +496,7 @@ body {
         position: absolute;
         height: 21rem;
         width: 90%;
+        max-width: 25rem;
         top: 105px;
         background: hsl(260, 30%, 27%);
         right: -20.68rem;
@@ -557,4 +563,11 @@ body {
         font-weight: 700;
     }  
 }
+
+    
+
+
+
+
+
 
