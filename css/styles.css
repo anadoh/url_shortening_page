@@ -38,6 +38,8 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: 775px bottom;
     padding-top: 160px;
+    
+    
 }
 /* I part */
 
@@ -80,6 +82,8 @@ body {
 
 .driver__column {
     width: 560px;
+    margin-left: 0;
+ 
 }
 
 .driver__title {
@@ -310,7 +314,7 @@ body {
         background-repeat: no-repeat;
         background-image: url("./images/illustration-working.svg");
         background-position: 0 4rem;
-        background-position-x: left;
+        background-position-x: center;
     }
     .mobile__logo {
         height: fit-content;
@@ -319,6 +323,7 @@ body {
         height: 415px;
         padding-top: 45px;
         padding-bottom: 85px;
+        
     }
     .driver__column {
         display: flex;
