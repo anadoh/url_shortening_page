@@ -145,11 +145,11 @@ body {
     font-size: 1.15rem;
     font-weight: 700;
     background-color: hsl(180, 66%, 49%);
-    padding: 15px;
     border-radius: 10px;
     height: 3.5rem;
     width: 190px;
     text-align: center;
+    color: #ffffff;
 }
 
 .statistics__title {
