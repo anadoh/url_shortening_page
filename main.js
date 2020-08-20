@@ -12,19 +12,28 @@ const handleUrl = function (event) {
 
 
 const showUrl = function (response, url) {
-  let counter = 0;
   const newEl = document.createElement("div");
-  newEl.innerText =` ${url} ${++counter}`;
+  newEl.innerText =` ${url}`;
   const div = document.querySelector(".url"); 
   div.appendChild(newEl);
   
-  let counter2 = 0;
+ 
   const newEl2 = document.createElement("div");
-  newEl2.innerText =`https://rel.ink/ ${response.hashid} ${++counter2}`;
-  
+  newEl2.innerText =`https://rel.ink/ ${response.hashid}`;
   const div2 = document.querySelector(".url_short"); 
-  const strong =div2.querySelector(".url_button");
-  div2.insertBefore(newEl2,strong);
+  div2.appendChild(newEl2);
+
+  const newEl3 = document.createElement("button");
+  newEl3.innerText =`Copy`;
+
+  const div3 = document.createElement("div")
+  div3.appendChild(newEl3);
+
+  const button = document.querySelector(".url_button"); 
+  button.appendChild(div3);
+
+
+  
 
 }
 

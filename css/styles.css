@@ -112,6 +112,14 @@ body {
 }
 /* III part */
 
+.show_url{
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;;
+    
+}
+
 .statistic__background {
     background-color: hsl(0, 0%, 90%);
     width: 100%;
