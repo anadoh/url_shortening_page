@@ -14,17 +14,20 @@ const handleUrl = function (event) {
 const showUrl = function (response, url) {
   const redirectUrl = `https://rel.ink/${response.hashid}`;
 
+  const rowDiv = document.createElement("div")
+
 
   const newEl = document.createElement("div");
+  newEl.className="url"
   newEl.innerText =` ${url}`;
-  const div = document.querySelector(".url"); 
-  div.appendChild(newEl);
+  
+  rowDiv.appendChild(newEl);
   
 
   const newEl2 = document.createElement("div");
+  newEl2.className = "url_short"
   newEl2.innerText = redirectUrl;
-  const div2 = document.querySelector(".url_short"); 
-  div2.appendChild(newEl2);
+  rowDiv.appendChild(newEl2);
   
 
   const newEl3 = document.createElement("button");
@@ -47,14 +50,15 @@ const showUrl = function (response, url) {
 
  
     
-
   const div3 = document.createElement("div")
+  div3.className="url_button"
   div3.appendChild(newEl3);
 
-  const button = document.querySelector(".url_button"); 
-  button.appendChild(div3);
+  
+  rowDiv.appendChild(div3);
 
-
+  const placeHolder = document.querySelector(".show_url"); 
+  placeHolder.appendChild(rowDiv);
 }
 
 function copyToClipboard(text) {

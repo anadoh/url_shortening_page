@@ -112,26 +112,18 @@ body {
 }
 /* III part */
 
-.show_url{
+.show_url div{ 
     display: flex;
-    flex-direction: row;
     font-family: 'Poppins', sans-serif;
 }
 
-.show_url div div {
+.show_url div {
     background-color: #ffffff;
     margin-top: 20px;;
     margin-bottom: 20px;
-    width: 100%;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;  
     border-radius: 5px;
 }
 
-.show_url div {
-    height: 3rem;
-}
 
 .url,
 .url_short {
@@ -143,22 +135,22 @@ body {
 }
 
 
-.url div{
+.url {
    padding-left: 2rem;
    color: #000000;
 }
-.url_short div {
+.url_short {
     justify-content: flex-end;
     padding-right: 2rem;
     color: hsl(180, 63%, 67%);
 }
 
-.url_button div{
+.url_button {
     padding-right: 2rem;
 }
 
 
-.url_button div button {
+.url_button button {
     background-color: hsl(180, 66%, 49%);
     border-radius: 5px;
     height: 2rem;
@@ -167,7 +159,6 @@ body {
     color: #ffffff;
     border: none;  
 }
-
 
 
 .statistic__background {
@@ -439,6 +430,35 @@ body {
         font-size: 1.1em;
         margin-bottom: 105px
     }
+
+    .show_url div {
+        flex-direction: column;
+        margin: auto 1rem;
+        background-color: red;
+        width: 100%;
+        padding-top: 1rem;
+
+    }
+
+    .url {
+      padding-left: 0; 
+    }
+
+    
+    
+    .url_button button {
+        background-color: hsl(180, 66%, 49%);
+        border-radius: 10px;
+        height: 50px;
+        width: 99%;
+        text-align: center;
+        color: #ffffff;
+        border: none; 
+        font-size: 1.1rem; 
+    }
+
+
+
     /* features */
     .features {
         flex-direction: column;
