@@ -150,7 +150,7 @@ body {
 .url_short div {
     justify-content: flex-end;
     padding-right: 2rem;
-    color: hsl(180, 66%, 49%);
+    color: hsl(180, 63%, 67%);
 }
 
 .url_button div{
@@ -158,16 +158,15 @@ body {
 }
 
 
-.url_button div button{
+.url_button div button {
     background-color: hsl(180, 66%, 49%);
     border-radius: 5px;
     height: 2rem;
     width: 100px;
     text-align: center;
     color: #ffffff;
-    border: none;
+    border: none;  
 }
-
 
 
 
@@ -235,7 +234,7 @@ body {
 }
 
 .feature_circle {
-    background-color: hsl(260, 8%, 14%);
+    background-color: hsl(260, 38%, 28%);
     width: 90px;
     height: 90px;
     display: flex;
