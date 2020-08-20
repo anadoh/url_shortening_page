@@ -113,12 +113,63 @@ body {
 /* III part */
 
 .show_url{
-    background-color: tomato;
     display: flex;
     flex-direction: row;
-    padding-top: 30px;;
-    
+    font-family: 'Poppins', sans-serif;
 }
+
+.show_url div div {
+    background-color: #ffffff;
+    margin-top: 20px;;
+    margin-bottom: 20px;
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;  
+    border-radius: 5px;
+}
+
+.show_url div {
+    height: 3rem;
+}
+
+.url,
+.url_short {
+    flex-grow: 5;
+}
+
+.url_button {
+    flex-grow: 0;   
+}
+
+
+.url div{
+   padding-left: 2rem;
+   color: #000000;
+}
+.url_short div {
+    justify-content: flex-end;
+    padding-right: 2rem;
+    color: hsl(180, 66%, 49%);
+}
+
+.url_button div{
+    padding-right: 2rem;
+}
+
+
+.url_button div button{
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 5px;
+    height: 2rem;
+    width: 100px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+
+
 
 .statistic__background {
     background-color: hsl(0, 0%, 90%);
