@@ -112,12 +112,11 @@ body {
 }
 /* III part */
 
-.show_url div{ 
+.show_url div { 
     display: flex;
     font-family: 'Poppins', sans-serif;
-}
-
-.show_url div {
+    overflow: hidden;
+    text-overflow: ellipsis;
     background-color: #ffffff;
     margin-top: 20px;;
     margin-bottom: 20px;
@@ -188,6 +187,8 @@ body {
     font-size: 1.15rem;
     font-weight: 500;
     padding-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .search__button {
@@ -404,6 +405,7 @@ body {
         border-radius: 10px;
         align-items: center;
         justify-content: center;
+        
     }
     .form_container {
         background-color: aliceblue;
@@ -413,6 +415,7 @@ body {
         margin-bottom: 10px;
         justify-content: left;
         font-size: 1rem;
+        
     }
     .search__button {
         background-color: hsl(180, 66%, 49%);
@@ -424,20 +427,28 @@ body {
     .statistics__title {
         font-size: 1.75rem;
         margin-top: 0;
+        
     }
     .statistics__content {
         width: 340px;
         font-size: 1.1em;
-        margin-bottom: 105px
+        margin-bottom: 105px;
+       
     }
 
     .show_url div {
         flex-direction: column;
-        margin: auto 1rem;
         background-color: red;
         width: 100%;
-        padding-top: 1rem;
+        margin: 2rem 0;
+    }
 
+    .show_url div div {
+        margin: 10px 10px;
+        width: 94%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
     }
 
     .url {
@@ -445,17 +456,30 @@ body {
     }
 
     
-    
     .url_button button {
-        background-color: hsl(180, 66%, 49%);
-        border-radius: 10px;
-        height: 50px;
-        width: 99%;
-        text-align: center;
-        color: #ffffff;
-        border: none; 
+        height: 2.5rem;
+        width: 100%;
         font-size: 1.1rem; 
+        
+       
     }
+
+    .url_button {
+     
+      
+    }
+
+ 
+
+    
+
+
+
+
+
+
+
+
 
 
 
