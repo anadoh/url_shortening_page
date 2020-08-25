@@ -115,18 +115,23 @@ body {
 .show_url div { 
     display: flex;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
-    text-overflow: ellipsis;
     background-color: #ffffff;
     margin-top: 20px;;
     margin-bottom: 20px;
     border-radius: 5px;
+   
 }
 
+.show_url div div {
+    display: inline-block;
+}
 
 .url,
 .url_short {
-    flex-grow: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+    white-space: nowrap;
+    width: calc(100%);
 }
 
 .url_button {
@@ -137,9 +142,11 @@ body {
 .url {
    padding-left: 2rem;
    color: #000000;
+  
+  
 }
 .url_short {
-    justify-content: flex-end;
+    text-align: right;
     padding-right: 2rem;
     color: hsl(180, 63%, 67%);
 }
@@ -438,21 +445,23 @@ body {
 
     .show_url div {
         flex-direction: column;
-        background-color: red;
         width: 100%;
-        margin: 2rem 0;
+        overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+       
     }
 
     .show_url div div {
         margin: 10px 10px;
         width: 94%;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        display: inline-block;
         
     }
 
     .url {
       padding-left: 0; 
+
     }
 
     
@@ -466,10 +475,12 @@ body {
 
     .url_button {
      
-      
+      padding-right: 0;
     }
 
- 
+    .url_short {
+        text-align: left;
+    }
 
     
 
