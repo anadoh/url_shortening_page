@@ -13,13 +13,13 @@ Users should be able to:
 
 
 ## Technologies
-*HTML 
-*CSS 
-*BEM (http://getbem.com/introduction/)
-*JavaScript
-*Fetch API (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* HTML 
+* CSS 
+* [BEM](http://getbem.com/introduction/)
+* JavaScript
+* [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
-##Screenshots
+## Screenshots
 ![Desktop screenshot](./doc/shortly_url_desktop_version.png)
 ![Mobile screenshot](./doc/shortly_url_mobile_version.png)
 
